@@ -1,0 +1,42 @@
+/*imports*/
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Lilita+One&display=swap");
+
+/*random*/
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+/*Header */
+.intestazione {
+  margin-left: -10px;
+  margin-top: -80px;
+  height: 540px;
+  width: 1368px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1208%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1209)'%3e%3c/rect%3e%3cpath d='M108.486%2c501.318C128.837%2c500.489%2c141.592%2c481.326%2c150.88%2c463.199C159.167%2c447.025%2c162.347%2c428.587%2c154.031%2c412.427C144.968%2c394.816%2c128.291%2c380.667%2c108.486%2c380.821C88.889%2c380.974%2c73.82%2c396.08%2c64.152%2c413.127C54.639%2c429.9%2c50.997%2c449.684%2c59.658%2c466.913C69.243%2c485.979%2c87.164%2c502.186%2c108.486%2c501.318' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M455.46 377.99 a138.48 138.48 0 1 0 276.96 0 a138.48 138.48 0 1 0 -276.96 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M600.163%2c622.18C651.578%2c622.313%2c692.304%2c584.68%2c718.683%2c540.548C745.929%2c494.964%2c764.479%2c438.565%2c737.117%2c393.05C710.302%2c348.445%2c652.065%2c339.543%2c600.163%2c343.4C555.438%2c346.724%2c517.45%2c372.587%2c494.443%2c411.084C470.729%2c450.763%2c462.005%2c498.605%2c482.704%2c539.936C505.644%2c585.741%2c548.935%2c622.047%2c600.163%2c622.18' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M479.824%2c787.266C535.569%2c790.667%2c581.079%2c747.578%2c608.982%2c699.199C636.861%2c650.863%2c648.047%2c591.938%2c620.457%2c543.436C592.605%2c494.473%2c536.143%2c471.037%2c479.824%2c472.144C425.497%2c473.212%2c372.399%2c500.008%2c348.454%2c548.784C326.602%2c593.296%2c351.431%2c641.513%2c375.356%2c684.945C400.563%2c730.705%2c427.678%2c784.084%2c479.824%2c787.266' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M150.79 152.19 a108.22 108.22 0 1 0 216.44 0 a108.22 108.22 0 1 0 -216.44 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M181.805%2c344.17C226.976%2c346.959%2c276.776%2c333.371%2c297.82%2c293.304C317.98%2c254.921%2c293.73%2c211.728%2c270.64%2c175.033C249.571%2c141.55%2c221.3%2c111.201%2c181.805%2c108.934C138.469%2c106.447%2c94.156%2c125.611%2c73.355%2c163.709C53.222%2c200.583%2c66.566%2c244.352%2c88.206%2c280.362C109.053%2c315.051%2c141.411%2c341.676%2c181.805%2c344.17' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M760.86 307.49 a114.05 114.05 0 1 0 228.1 0 a114.05 114.05 0 1 0 -228.1 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1169.32 518.73 a114.46 114.46 0 1 0 228.92 0 a114.46 114.46 0 1 0 -228.92 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M369.94%2c268.934C414.008%2c272.27%2c456.69%2c248.442%2c478.793%2c210.172C500.901%2c171.893%2c497.784%2c124.555%2c475.312%2c86.488C453.225%2c49.074%2c413.387%2c25.942%2c369.94%2c25.777C326.201%2c25.61%2c282.489%2c46.441%2c263.168%2c85.681C245.44%2c121.686%2c266.116%2c160.927%2c286.32%2c195.603C306.324%2c229.936%2c330.318%2c265.935%2c369.94%2c268.934' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1162.97%2c532.55C1189.041%2c533.903%2c1213.559%2c517.56%2c1225.148%2c494.167C1235.697%2c472.874%2c1226.553%2c448.998%2c1214.514%2c428.51C1202.687%2c408.384%2c1186.286%2c389.505%2c1162.97%2c388.352C1137.888%2c387.112%2c1113.355%2c400.654%2c1101.773%2c422.937C1090.904%2c443.848%2c1099.558%2c467.67%2c1111.046%2c488.247C1122.933%2c509.538%2c1138.618%2c531.286%2c1162.97%2c532.55' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M901.402%2c427.171C942.79%2c426.651%2c982.007%2c410.844%2c1005.828%2c376.995C1034.296%2c336.543%2c1056.672%2c284.175%2c1032.346%2c241.105C1007.782%2c197.612%2c951.152%2c187.632%2c901.402%2c192.102C859.351%2c195.88%2c826.951%2c224.969%2c805.728%2c261.467C784.363%2c298.209%2c771.081%2c342.869%2c792.333%2c379.676C813.584%2c416.482%2c858.904%2c427.705%2c901.402%2c427.171' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M828.07 270.47 a170.09 170.09 0 1 0 340.18 0 a170.09 170.09 0 1 0 -340.18 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1208'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='84.72%25' y1='-39.29%25' x2='15.28%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1209'%3e%3cstop stop-color='rgba(47%2c 80%2c 97%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(155%2c 193%2c 195%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+/*titolo all'interno della header*/
+.titolo {
+  font-family: "Climate Crisis", cursive;
+  font-family: "Lilita One", cursive;
+  color: #b9e3eb;
+  text-align: center;
+  padding-top: 285px;
+  font-size: 100px;
+}
+/*parte centrale tra i due div*/
+.contenuto_centrale {
+  text-align: center;
+  font-family: "Climate Crisis", cursive;
+  font-family: "Lilita One", cursive;
+}
+
+/*seconda sezione*/
+.seconda_sezione {
+  margin-left: -10px;
+  margin-top: 200px;
+  width: 1368px;
+  height: 540px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1304%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsRadialGradient1305)'%3e%3c/rect%3e%3cpath d='M1440 0L772.25 0L1440 2.9z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M772.25 0L1440 2.9L1440 242.83L736.47 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M736.47 0L1440 242.83L1440 415.25L405.93 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M405.93000000000006 0L1440 415.25L1440 499.90999999999997L232.47000000000006 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 560L353.69 560L0 359.26z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 359.26L353.69 560L406.52 560L0 349.32z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 349.32L406.52 560L952.5799999999999 560L0 141.57999999999998z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 141.57999999999998L952.5799999999999 560L1160.54 560L0 118.10999999999999z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1304'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cradialGradient cx='50%25' cy='50%25' r='772.53' gradientUnits='userSpaceOnUse' id='SvgjsRadialGradient1305'%3e%3cstop stop-color='rgba(0%2c 69%2c 158%2c 1)' offset='0.01'%3e%3c/stop%3e%3cstop stop-color='rgba(47%2c 80%2c 97%2c 1)' offset='1'%3e%3c/stop%3e%3c/radialGradient%3e%3c/defs%3e%3c/svg%3e");
+}
